@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= @title %></title>
+    <link rel="stylesheet" type="text/css" href="<%= url('/stylesheets/stylesheets.css') %>">
+    <script type="text/javascript" src='<%= url('/javascript/something.js')%>'></script>
+  </head>
+  <body>
+  	<img src='<%= url('/images/cupcakes.jpeg')%>'>
+    <%= yield %>
+  </body>
+</html>
